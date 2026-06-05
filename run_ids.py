@@ -59,8 +59,7 @@ def run_full_demo():
     total_detected = len(ids.all_alerts)
     print(f"\n  Attack frames injected : {total_injected}")
     print(f"  Alerts generated       : {total_detected}")
-    print(f"\n  ✓ IDS is working! Check alerts above.")
-    print(f"  ✓ Project core complete — ready for dashboard.\n")
+
 
 
 if __name__ == '__main__':

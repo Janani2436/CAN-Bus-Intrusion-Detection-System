@@ -133,8 +133,7 @@ def run_demo(duration_seconds: int = 10):
         print(f"    Throttle:{decoded.get('throttle_pct', 0):.1f}%")
         print(f"    Temp:    {decoded.get('coolant_temp_c', 0):.0f}°C")
 
-    print("\n  ✓ Simulator working correctly!")
-    print("  ✓ Ready for Day 2: Attack Engine\n")
+
 
     return bus.get_frame_log()
 

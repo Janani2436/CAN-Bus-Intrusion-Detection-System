@@ -72,8 +72,6 @@ def run_attack_demo():
     for src, count in sorted(attack_frames.items()):
         print(f"    {src:<30} {count:>4} frames")
 
-    print("\n  ✓ Attack engine working correctly!")
-    print("  ✓ Ready for Day 3: IDS Detector\n")
 
 
 if __name__ == '__main__':
