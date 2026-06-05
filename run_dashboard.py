@@ -1,18 +1,17 @@
 """
-run_dashboard.py — THE MAIN DEMO FILE for your Visteon interview
+run_dashboard.py
 
-This is what you show during the technical interview.
-Run it, let it play out, then walk the interviewer through what they see.
+AutoShield-CAN IDS Demonstration Module
 
-What happens:
-  Phase 1 (5s)  — Normal vehicle traffic, IDS trains silently
-  Phase 2 (10s) — All 4 attacks run, IDS detects them live
-  Phase 3       — Final report printed
+Demonstrates:
+- Vehicle CAN traffic simulation
+- Real-time cyberattack injection
+- Intrusion detection and alerting
+- Security monitoring dashboard
 
-Usage:
-    python run_dashboard.py
+Designed to showcase automotive cybersecurity concepts,
+CAN Bus security threats, and IDS-based threat detection.
 """
-
 import os
 import sys
 import time
@@ -53,7 +52,9 @@ def run_dashboard_demo():
     # ── Phase labels ─────────────────────────────────────────────────────────
     phase_text = {"current": "Phase 1: Training IDS on normal traffic..."}
 
-    console.print("\n[bold white]🚗  CAN Bus IDS — Starting up...[/bold white]\n")
+    console.print(
+    "\n[bold green]🚗 AutoShield-CAN IDS — Automotive Cybersecurity Demonstration[/bold green]\n"
+)
     bus.start()
 
     # ── Live dashboard loop ──────────────────────────────────────────────────
@@ -95,7 +96,8 @@ def run_dashboard_demo():
 
     console.print(Panel(
         Text.assemble(
-            ("  Project: ", "bright_black"),   ("CAN Bus Intrusion Detection System\n", "bold white"),
+            ("  Project: ", "bright_black"),   ("AutoShield-CAN IDS\n", "bold white"),
+            ("  Focus:   ", "bright_black"),   ("Automotive Cybersecurity & CAN Security\n", "white"),
             ("  Stack:   ", "bright_black"),   ("Python · python-can · Rich · NumPy\n", "white"),
             ("  Detects: ", "bright_black"),   ("Replay · Fuzzing · Spoofing · Flooding\n", "white"),
             ("  Method:  ", "bright_black"),   ("Rule-based + Statistical (Z-score)\n", "white"),

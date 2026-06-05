@@ -26,8 +26,8 @@ logging.basicConfig(level=logging.WARNING)
 
 def run_full_demo():
     print("\n" + "="*55)
-    print("  CAN Bus Intrusion Detection System")
-    print("  Full Demo: Normal → Train → Attack → Detect")
+    print("  AutoShield-CAN IDS")
+    print("  Intrusion Detection & Threat Analysis Engine")
     print("="*55)
 
     # Build IDS and bus

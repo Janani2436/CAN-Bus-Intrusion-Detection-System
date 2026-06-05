@@ -54,8 +54,13 @@ def demo_frame_listener(frame: CANFrame) -> None:
 def run_demo(duration_seconds: int = 10):
     """Run the simulator and display results."""
     print("\n" + "="*60)
-    print("  🚗  CAN Bus IDS — Simulator Module (Day 1)")
-    print("  Vehicle: 5 ECUs on 500 kbps powertrain bus")
+    print("  🚗 Automotive CAN Bus Intrusion Detection System")
+    print("  Vehicle Network Simulator")
+    print(" ")
+    print(" Network:")
+    print("  • 5 ECUs")
+    print("  • 500 kbps CAN Bus")
+    print("  • Real-Time Traffic Monitoring")
     print("="*60)
 
     # Frame counter per ECU ID

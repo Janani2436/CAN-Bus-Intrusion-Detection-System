@@ -37,7 +37,8 @@ def run_attack_demo():
             normal_frames[frame.arbitration_id] += 1
 
     print("\n" + "="*55)
-    print("  CAN Bus IDS — Attack Engine Demo (Day 2)")
+    print("  AutoShield-CAN IDS")
+    print("  Automotive Threat Simulation Engine")
     print("="*55)
 
     bus = build_vehicle_network()
